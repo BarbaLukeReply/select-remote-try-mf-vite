@@ -1,0 +1,1 @@
+concurrently --names "remoteA,host" -c "bgBlue.bold,bgGreen.bold" 'cd remote-a-try-mf-vite; npm run build; npm run preview' 'cd shell-try-mf-vite; npm run dev'

@@ -1,0 +1,20 @@
+[
+  {
+    "name": "remoteA",
+    "directory": "remote-a-try-mf-vite",
+    "scripts": ["npm run build", "npm run preview"],
+    "color": "bgBlue.bold"
+  },
+  {
+    "name": "remoteB",
+    "directory": "remote-b-try-mf-vite",
+    "scripts": ["npm run build", "npm run preview"],
+    "color": "bgMagenta.bold"
+  },
+  {
+    "name": "host",
+    "directory": "shell-try-mf-vite",
+    "scripts": ["npm run dev"],
+    "color": "bgGreen.bold"
+  }
+]
